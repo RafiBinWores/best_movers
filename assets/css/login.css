@@ -1,0 +1,40 @@
+/* utilitis */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+/*-----------------------------
+-------------------------- login */
+
+.body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #168AAD;
+    background-size: cover;
+    background-position: center
+}
+.login-links{
+    color: #168AAD;
+    font-size: 14px;
+}
+.login-links:hover{
+    color: #168AAD;
+}
+.signin-btn{
+    width: 100%;
+    color: #fff;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #168AAD;
+}
