@@ -19,6 +19,20 @@ function openFullImg(photo) {
     fullImgBox.style.display = "none";
   };
 
+ScrollReveal({ 
+  reset: true,
+  distance: '50px',
+  duration: 1500,
+  delay: 400
+  });
+   ScrollReveal().reveal('.nav-container', { delay: 100, origin: 'bottom'});
+   ScrollReveal().reveal('.about-details', { delay: 200, origin: 'left'});
+   ScrollReveal().reveal('.about-img', { delay: 500, origin: 'left'});
+   ScrollReveal().reveal('.counter-container', { delay: 500, origin: 'bottom'});
+   ScrollReveal().reveal('.service-title', { delay: 500, origin: 'left'});
+   ScrollReveal().reveal('.service-all', { delay: 500, origin: 'left'});
+   ScrollReveal().reveal('.service-row ', { delay: 500, origin: 'bottom'});
+
   var swiper = new Swiper(".mySwiper", {
     slidesPerView: 1,
     spaceBetween: 10,

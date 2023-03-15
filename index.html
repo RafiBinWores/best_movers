@@ -19,6 +19,7 @@
 
     <!-- css -->
     <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
 
 </head>
 <body>
@@ -139,7 +140,7 @@
     <section class="about-us">
       <div class="container">
         <div class="row gy-5">
-          <div class="col-sm-12 col-md-6 col-lg-7">
+          <div class="col-sm-12 col-md-6 col-lg-7 about-details">
             <p class="fw-semibold about-heading">About Us</p>
             <div class="about-title">
               <h3 class="fw-semibold">Best <span>Moving & Shifting</span><br> company in Qatar</h3>
@@ -152,7 +153,7 @@
             </div>
 
           </div>
-          <div class="col-sm-12 col-md-6 col-lg-5">
+          <div class="col-sm-12 col-md-6 col-lg-5 about-img">
             <div class="about-img-holder">
               <img class="w-100 rounded" src="assets/image/about-us1.jpg" alt="About us image">
             </div>
@@ -164,7 +165,7 @@
     <!-- stat counter -->
     <section class="statcounter">
       <div class="container counter-container">
-        <div class="row py-4">
+        <div class="row py-4 ">
           <div class="col-4">
             <div class="counter d-flex justify-content-center align-items-center">
               <div>
@@ -209,19 +210,110 @@
       <div class="container">
         <div class="service-heading d-flex justify-content-between align-items-center">
           <div>
-            <h2 class="fw-bold mb-0">Our <span>Services</span></h2>
+            <h2 class="fw-bold mb-0 service-title">Our <span>Services</span></h2>
           </div>
           <div>
             <a href="">
-              <p class="fw-semibold mb-0">See More <i class="fi fi-rr-arrow-small-right about-icon"></i></p>
+              <p class="fw-semibold service-all mb-0">See More <i class="fi fi-rr-arrow-small-right about-icon"></i></p>
             </a>
+          </div>
+        </div>
+
+        <div class="row gy-4 mt-4 service-row">
+          <div class="col-sm-12 col-md-6 col-lg-3">
+            <a href="" class="card custom-card mx-auto">
+              <div class="card-body">
+                <i class="fi fi-rr-house-building fs-1"></i>
+                <h6 class="card-title fw-semibold">House & Villa Shifting</h6>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </a>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-3">
+            <a href="" class="card custom-card mx-auto">
+              <div class="card-body">
+                <i class="fi fi-rr-city fs-1"></i>
+                <h6 class="card-title fw-semibold" >Office & Corporate Shifting</h6>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </a>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-3">
+            <a href="" class="card custom-card mx-auto">
+              <div class="card-body">
+                <i class="fi fi-rr-package fs-1"></i>
+                <h6 class="card-title fw-semibold">Movers & Packers</h6>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </a>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-3">
+            <a href="" class="card custom-card mx-auto">
+              <div class="card-body">
+                <i class="fi fi-rr-truck-loading fs-1"></i>
+                <h6 class="card-title fw-semibold">Loading & Unloading</h6>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="latest-blog">
+      <div class="container">
+        <div class="service-heading d-flex justify-content-between align-items-center">
+          <div>
+            <h2 class="fw-bold mb-0 service-title">Latest <span>Blog</span></h2>
+          </div>
+          <div>
+            <a href="">
+              <p class="fw-semibold service-all mb-0">See More <i class="fi fi-rr-arrow-small-right about-icon"></i></p>
+            </a>
+          </div>
+        </div>
+
+        <div class="row mt-4 gy-4 mx-auto">
+          <div class="col-sm-12 col-md-6 col-lg-4">
+            <div class="card blog-card mx-auto" style="width: 18rem;">
+              <img src="assets/image/about-us1.jpg" class="card-img-top" alt="...">
+              <div class="card-body custom-card-body">
+                <i class="fi fi-rr-package fs-1 blog-cat"></i>
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="blog-btn">Read More <i class="fi fi-rr-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-4">
+            <div class="card blog-card mx-auto" style="width: 18rem;">
+              <img src="assets/image/about-us1.jpg" class="card-img-top" alt="...">
+              <div class="card-body custom-card-body">
+                <i class="fi fi-rr-city fs-1 blog-cat"></i>
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="blog-btn">Read More <i class="fi fi-rr-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-4 mx-auto">
+            <div class="card blog-card mx-auto" style="width: 18rem;">
+              <img src="assets/image/about-us1.jpg" class="card-img-top" alt="...">
+              <div class="card-body custom-card-body">
+                <i class="fi fi-rr-package fs-1 blog-cat"></i>
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="blog-btn">Read More <i class="fi fi-rr-arrow-right"></i></a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="latest-blog">
-
+    <section class="gallery">
+      
     </section>
 
 
